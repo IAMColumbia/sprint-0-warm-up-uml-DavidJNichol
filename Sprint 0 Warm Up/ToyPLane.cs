@@ -17,18 +17,8 @@ namespace Sprint0_OOP2
         {
             string airplaneDescription = "This" + this + " has a max altitude of " + MaxAltitude + "ft \n";
             string altitudeDescription = "It's current altitude is " + CurrentAltitude + " ft \n";
-            string engineDescription;
 
-            if (Engine.isStarted)
-            {
-                engineDescription = nameof(Engine) + " is started\n";
-            }
-            else
-            {
-                engineDescription = nameof(Engine) + " is not started\n";
-            }
-
-            return airplaneDescription + altitudeDescription + engineDescription;
+            return airplaneDescription + altitudeDescription + Engine.About();
         }
 
         protected string getWindUpString()
