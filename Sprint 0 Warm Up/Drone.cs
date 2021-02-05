@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Sprint0_OOP2
 {
-    class Drone
+    public class Drone : AerialVehicle
     {
+        public Drone()
+        {
+            MaxAltitude = 500;
+        }
     }
 }

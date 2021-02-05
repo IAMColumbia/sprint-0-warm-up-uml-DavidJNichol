@@ -116,7 +116,6 @@ namespace Sprint0_OOP2
 
         public virtual string TakeOff()
         {
-
             if (Engine.isStarted)
             {
                 IsFlying = true;

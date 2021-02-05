@@ -28,7 +28,7 @@
 
         public void Stop()
         {
-            isStarted = true;
+            isStarted = false;
         }
     }
 }

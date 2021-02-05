@@ -13,11 +13,13 @@ namespace Sprint0_OOP2
 
         public Airport(string Code)
         {
+            vehicles = new List<AerialVehicle>();
             this.airportCode = Code;
         }
 
         public Airport(string Code, int maxVehicles)
         {
+            vehicles = new List<AerialVehicle>();
             this.maxVehicles = maxVehicles;
             this.airportCode = Code;
         }

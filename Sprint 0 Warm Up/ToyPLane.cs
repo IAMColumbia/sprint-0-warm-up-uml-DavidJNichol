@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Sprint0_OOP2
 {
-    class ToyPlane : Airplane
+    public class ToyPlane : Airplane
     {
-        protected bool isWoundUp;
+        public bool isWoundUp;
 
         public ToyPlane()
         {
@@ -23,7 +23,10 @@ namespace Sprint0_OOP2
 
         protected string getWindUpString()
         {
-            return this + " is wound up!";
+            if (isWoundUp)
+                return this + " is wound up!";
+            else
+                return this + " is not wound.";
         }
 
         public override void StartEngine()
@@ -36,13 +39,22 @@ namespace Sprint0_OOP2
 
         public override string TakeOff()
         {
-            CurrentAltitude = MaxAltitude;
-            return this + " has taken off.";
+            if(Engine.isStarted)
+            {
+                IsFlying = true;
+                return this + " has taken off.";
+            }
+            else
+            {
+                return this + " needs to turn its engine on first!.";
+            }
         }
 
         public void Unwind()
         {
+            CurrentAltitude = 0;
             isWoundUp = false;
+            IsFlying = false;
         }
 
         public void WindUp()
