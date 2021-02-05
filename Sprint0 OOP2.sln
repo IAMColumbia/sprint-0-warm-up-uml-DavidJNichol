@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sprint0 OOP2", "Sprint 0 Warm Up\Sprint0 OOP2.csproj", "{4C51E404-8CDA-4245-A2C2-6C1F62F520E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AerialVehicleUnitTest", "AerialVehicleUnitTest\AerialVehicleUnitTest.csproj", "{AC2AA2B5-58FC-457A-B5A6-D736C168B92E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C51E404-8CDA-4245-A2C2-6C1F62F520E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C51E404-8CDA-4245-A2C2-6C1F62F520E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C51E404-8CDA-4245-A2C2-6C1F62F520E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C51E404-8CDA-4245-A2C2-6C1F62F520E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC2AA2B5-58FC-457A-B5A6-D736C168B92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC2AA2B5-58FC-457A-B5A6-D736C168B92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC2AA2B5-58FC-457A-B5A6-D736C168B92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC2AA2B5-58FC-457A-B5A6-D736C168B92E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8552880D-9640-482E-998E-F53BF10B34DD}
+	EndGlobalSection
+EndGlobal

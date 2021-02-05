@@ -4,12 +4,11 @@ using System.Text;
 
 namespace Sprint0_OOP2
 {
-    public class Airplane : AerialVehicle
+    public class Helicopter : AerialVehicle
     {
-        public Airplane()
+        public Helicopter()
         {
-            MaxAltitude = 41000;
+            MaxAltitude = 8000;
         }
     }
 }
-
